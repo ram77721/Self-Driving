@@ -1,0 +1,7 @@
+import time
+
+seconds = 15
+
+for i in range(seconds):
+    print(str(seconds-i)+ " seconds remain")
+    time.sleep(1)
